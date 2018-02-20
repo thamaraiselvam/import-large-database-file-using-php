@@ -15,7 +15,7 @@ Download here - <a href="https://github.com/thamaraiselvam/import-database-file-
 
 2.Open the `import.php` and replace following varialbles with your Database credentials
 
-`$filename = 'filname.sql';`
+`$file = 'file.sql';`
 
 `$host = 'localhost';`
 
