@@ -12,7 +12,7 @@ Class Import_Sql_Multicall{
 	// Database name
 	private $database       = 'test';
 	// database file path
-	private	$file           = 'BLOG.sql';
+	private	$file           = 'file.sql';
 	//max execution time
 	private	$import_timeout = 30;
 
