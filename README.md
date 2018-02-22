@@ -29,4 +29,4 @@ Download here - <a href="https://github.com/thamaraiselvam/import-database-file-
 
 That's it. your database is imported :)
 
-Note: This will process the queries in multiple ajax requests and status will be updated on the view.
+Note: During this process multiple request sent from browser (Ajax) so do not close the browser until progres gets completed
