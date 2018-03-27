@@ -29,7 +29,7 @@ Class Import_Sql_Multicall{
 		$this->init_db();
 		$offset = !empty($_POST['offset']) ? $_POST['offset'] : 0;
 		$result = $this->import_sql_file($offset);
-		die(json_encode($result));
+		die("<LOTUS_START>".json_encode($result)."<LOTUS_END>");
 	}
 
 	private function init_db(){
@@ -102,7 +102,7 @@ Class Import_Sql_Multicall{
 
 		mysqli_query($this->db, "UNLOCK TABLES;");
 
-		return array('status' => 'completed', 'msg' => 'import completed');
+		return array('status' => 'completed', 'msg' => 'Imported successfully!');
 	}
 
 	public function is_timed_out() {
