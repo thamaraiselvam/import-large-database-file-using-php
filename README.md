@@ -7,7 +7,7 @@ Steps to Run the secript.
 
 1.Clone the repo 
 
-`git clone https://github.com/thamaraiselvam/import-database-file-using-php.git`
+`git clone https://github.com/thamaraiselvam/import-large-database-file-using-php.git`
 
 OR
 
